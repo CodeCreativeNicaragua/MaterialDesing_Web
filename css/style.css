@@ -1,0 +1,32 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By codecreativenicaragua.com
+ */
+
+nav ul a,
+nav .brand-logo{
+  color: #444;
+}
+
+p{
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.icon-block .material-icons{
+  font-size: inherit;
+}
+
+.contenedor-slider{
+  min-height: 580px;
+  line-height: 0;
+  height: auto;
+  color:rgba(255,255,255,.9);
+  width: 100%;
+}

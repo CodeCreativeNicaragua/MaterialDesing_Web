@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Code Creative Nicaragua</title>
+    <!-- Linea para informar que el sitio esta optimizado para dispositivos moviles-->
+    <meta name="viewport" content="width= device-width,initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset= UTF-8">
+    <!-- Importando materialize css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection">
+    <link type="text/css"rel="stylesheet" href="css/style.css" media="screen,projection">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- importantando fuente-->
+    <link rel="stylesheet" href="fonts/roboto/Roboto-Thin.woff">
+  </head>
+  <body>
+        <nav class="teal" role="navigation">
+            <div class="nav-wrapper container">
+              <a id="logo-container" href="#" class="brand-logo white-text">Code </a>
+                <ul class="right hide-on-med-and-down">
+                    <li class="waves-effect "><a class="white-text"href="#">Inicio</a></li>
+                    <li><a class="waves-effect white-text" href="#!">Sobre nosotros</a></li>
+                </ul>
+
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a href="#">Inicio movil</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+        <!-- carousel de imagenes
+        <div class="carousel carousel-slider contenedor-slider center" data-indicators="true">
+
+              <a class="carousel-item" href="#"><img src="https://lorempixel.com/800/400/food/1"></a>
+              <a class="carousel-item" href="#"><img src="https://lorempixel.com/800/400/food/2"></a>
+
+        </div>
+        fin del carousel-->
+        <div class="slider " >
+              <ul class="slides" data-indicators="false">
+                  <li>
+                    <img src="img/pagina web.jpg" alt="imagen1">
+                      <div class="caption center-align">
+                            <h3>Este es el titulo del slider 1</h3>
+                            <h5 class="light grey-text text-lighten-3"> este es el eslogan de la imagen</h5>
+                      </div>
+                  </li>
+
+                  <li>
+                    <img src="img/diseño grafico.jpg" alt="imagen2">
+                      <div class="caption center-align">
+                            <h3>Este es el titulo del slider 2</h3>
+                            <h5 class="light grey-text text-lighten-3"> este es el eslogan de la imagen</h5>
+                      </div>
+                  </li>
+              </ul>
+        </div>
+
+        <div class="row">
+            <h5 class="teal-text light center"><strong>Nos especializamos para ayudarte a crecer</strong></h5>
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+                    <h5 class="center">Desarrollo de sistemas</h5>
+                    <p class="center light">Desarrollo de sistemas web completamente ajustado a las necesidades de su negocio, empresa.</p>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+                    <h5 class="center">Diseño de sitios web</h5>
+                    <p class="center light">Diseñamos sitios web dinamicos y estaticos, justo como lo solicite.</p>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+                    <h5 class="center">Diseño Grafico</h5>
+                    <p class="center light">convertimos sus ideas en realidad, si lo imagina nosotros lo hacemos.</p>
+                </div>
+            </div>
+      </div>
+      <!--AGREGANDO  TAB -->
+      <div class="row center-align">
+            <h5 class="teal-text center light"><strong>Porfolio de proyectos realizados</strong></h5>
+            <div class="col s12 m12 ">
+                <ul class="tabs">
+                    <li class="tab col s4"><a href="#test1">Desarrollo web</a></li>
+                    <li class="tab col s4"><a href="#test2">Diseño web</a></li>
+                    <li class="tab col s4"><a href="#test3">Diseño grafico</a></li>
+                </ul>
+            </div>
+            <!--AGREGANDO TARJETAS A TAB -->
+            <div id="test1"class="col s12 m12">
+              <br>
+                  <div class="row">
+
+                        <div class="col s12 m3">
+                            <div class="card">
+                              <!--AGREGANDO IMAGEN E ICONO-->
+                                <div class="card-image center">
+                                   <img class="activator" src="img/sistemas-web.png" alt="">
+                                </div>
+                              <!--AGREGANDO IMAGEN E ICONO-->
+
+                              <!--AGREGANDO TITULO DE LA TARJETA-->
+                                <div class="card-title">
+
+                                </div>
+                              <!--AGREGANDO TITULO DE LA TARJETA-->
+
+                              <!--AGREGANDO CONTENIDO-->
+                                <div class="card-content">
+                                  <span class="card-title activator" ><i class="material-icons right">more_vert</i>Sistemas Web</span>
+                                  <p><a href="#">ver proyecto</a></p>
+                                </div>
+                              <!--AGREGANDO CONTENIDO-->
+
+                              <!--AGREGANDO info extra-->
+                                <div class="card-reveal">
+                                    <span class="card-title activator" ><i class="material-icons right">close</i><strong>Mi negocio</strong></span>
+                                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                    <p class="center"><a href="#">ver proyecto</a></p>
+                                </div>
+                                <!--AGREGANDO info extra-->
+                            </div>
+                        </div>
+
+                        <div class="col s12 m3">
+                            <div class="card">
+                              <!--AGREGANDO IMAGEN E ICONO-->
+                                <div class="card-image center">
+                                   <img class="activator" src="img/sistemas-web.png" alt="">
+                                </div>
+                              <!--AGREGANDO IMAGEN E ICONO-->
+
+                              <!--AGREGANDO TITULO DE LA TARJETA-->
+                                <div class="card-title">
+
+                                </div>
+                              <!--AGREGANDO TITULO DE LA TARJETA-->
+
+                              <!--AGREGANDO CONTENIDO-->
+                                <div class="card-content">
+                                  <span class="card-title activator" ><i class="material-icons right">more_vert</i>Sistemas Web</span>
+                                  <p><a href="#">ver proyecto</a></p>
+                                </div>
+                              <!--AGREGANDO CONTENIDO-->
+
+                              <!--AGREGANDO info extra-->
+                                <div class="card-reveal">
+                                    <span class="card-title activator" ><i class="material-icons right">close</i><strong>Mi negocio</strong></span>
+                                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                    <p class="center"><a href="#">ver proyecto</a></p>
+                                </div>
+                                <!--AGREGANDO info extra-->
+                            </div>
+                        </div>
+
+                        <div class="col s12 m3">
+                            <div class="card">
+                              <!--AGREGANDO IMAGEN E ICONO-->
+                                <div class="card-image center">
+                                   <img class="activator" src="img/sistemas-web.png" alt="">
+                                </div>
+                              <!--AGREGANDO IMAGEN E ICONO-->
+
+                              <!--AGREGANDO TITULO DE LA TARJETA-->
+                                <div class="card-title">
+
+                                </div>
+                              <!--AGREGANDO TITULO DE LA TARJETA-->
+
+                              <!--AGREGANDO CONTENIDO-->
+                                <div class="card-content">
+                                  <span class="card-title activator" ><i class="material-icons right">more_vert</i>Sistemas Web</span>
+                                  <p><a href="#">ver proyecto</a></p>
+                                </div>
+                              <!--AGREGANDO CONTENIDO-->
+
+                              <!--AGREGANDO info extra-->
+                                <div class="card-reveal">
+                                    <span class="card-title activator" ><i class="material-icons right">close</i><strong>Mi negocio</strong></span>
+                                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                    <p class="center"><a href="#">ver proyecto</a></p>
+                                </div>
+                                <!--AGREGANDO info extra-->
+                            </div>
+                        </div>
+
+                        <div class="col s12 m3">
+                            <div class="card">
+                              <!--AGREGANDO IMAGEN E ICONO-->
+                                <div class="card-image center">
+                                   <img class="activator" src="img/sistemas-web.png" alt="">
+                                </div>
+                              <!--AGREGANDO IMAGEN E ICONO-->
+
+                              <!--AGREGANDO TITULO DE LA TARJETA-->
+                                <div class="card-title">
+
+                                </div>
+                              <!--AGREGANDO TITULO DE LA TARJETA-->
+
+                              <!--AGREGANDO CONTENIDO-->
+                                <div class="card-content">
+                                  <span class="card-title activator" ><i class="material-icons right">more_vert</i>Sistemas Web</span>
+                                  <p><a href="#">ver proyecto</a></p>
+                                </div>
+                              <!--AGREGANDO CONTENIDO-->
+
+                              <!--AGREGANDO info extra-->
+                                <div class="card-reveal">
+                                    <span class="card-title activator" ><i class="material-icons right">close</i><strong>Mi negocio</strong></span>
+                                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                    <p class="center"><a href="#">ver proyecto</a></p>
+                                </div>
+                                <!--AGREGANDO info extra-->
+                            </div>
+                        </div>
+
+                  </div>
+
+            </div>
+
+            <div id="test2"class="col s12">
+              <div class="row">
+                      <div class="col s12 m3">
+                          <div class="card">
+                            <!--AGREGANDO IMAGEN E ICONO-->
+                              <div class="card-image center">
+                                 <img class="activator" src="img/pagina web.jpg" alt="">
+                              </div>
+                            <!--AGREGANDO IMAGEN E ICONO-->
+
+                            <!--AGREGANDO TITULO DE LA TARJETA-->
+                              <div class="card-title">
+
+                              </div>
+                            <!--AGREGANDO TITULO DE LA TARJETA-->
+
+                            <!--AGREGANDO CONTENIDO-->
+                              <div class="card-content">
+                                <span class="card-title activator" ><i class="material-icons right">more_vert</i>Pagina web</span>
+                                <p><a href="#">ver proyecto</a></p>
+                              </div>
+                            <!--AGREGANDO CONTENIDO-->
+
+                            <!--AGREGANDO info extra-->
+                              <div class="card-reveal">
+                                  <span class="card-title activator" ><i class="material-icons right">close</i><strong>pagina web dinamica</strong></span>
+                                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                  <p class="center"><a href="#">ver proyecto</a></p>
+                              </div>
+                              <!--AGREGANDO info extra-->
+                          </div>
+                      </div>
+
+                      <div class="col s12 m3">
+                          <div class="card">
+                            <!--AGREGANDO IMAGEN E ICONO-->
+                              <div class="card-image center">
+                                 <img class="activator" src="img/pagina web.jpg" alt="">
+                              </div>
+                            <!--AGREGANDO IMAGEN E ICONO-->
+
+                            <!--AGREGANDO TITULO DE LA TARJETA-->
+                              <div class="card-title">
+
+                              </div>
+                            <!--AGREGANDO TITULO DE LA TARJETA-->
+
+                            <!--AGREGANDO CONTENIDO-->
+                              <div class="card-content">
+                                <span class="card-title activator" ><i class="material-icons right">more_vert</i>Pagina web</span>
+                                <p><a href="#">ver proyecto</a></p>
+                              </div>
+                            <!--AGREGANDO CONTENIDO-->
+
+                            <!--AGREGANDO info extra-->
+                              <div class="card-reveal">
+                                  <span class="card-title activator" ><i class="material-icons right">close</i><strong>pagina web dinamica</strong></span>
+                                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                  <p class="center"><a href="#">ver proyecto</a></p>
+                              </div>
+                              <!--AGREGANDO info extra-->
+                          </div>
+                      </div>
+
+              </div>
+            </div>
+
+
+            <div id="test3"class="col s12">
+                <div class="row">
+                        <div class="col s12 m3">
+                            <div class="card">
+                              <!--AGREGANDO IMAGEN E ICONO-->
+                                <div class="card-image center">
+                                   <img class="activator" src="img/diseño grafico.jpg" alt="">
+                                </div>
+                              <!--AGREGANDO IMAGEN E ICONO-->
+
+                              <!--AGREGANDO TITULO DE LA TARJETA-->
+                                <div class="card-title">
+
+                                </div>
+                              <!--AGREGANDO TITULO DE LA TARJETA-->
+
+                              <!--AGREGANDO CONTENIDO-->
+                                <div class="card-content">
+                                  <span class="card-title activator" ><i class="material-icons right">more_vert</i>Diseño Grafico</span>
+                                  <p><a href="#">ver proyecto</a></p>
+                                </div>
+                              <!--AGREGANDO CONTENIDO-->
+
+                              <!--AGREGANDO info extra-->
+                                <div class="card-reveal">
+                                    <span class="card-title activator" ><i class="material-icons right">close</i><strong>Linea grafica</strong></span>
+                                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                    <p class="center"><a href="#">ver proyecto</a></p>
+                                </div>
+                                <!--AGREGANDO info extra-->
+                            </div>
+                        </div>
+
+                        <div class="col s12 m3">
+                            <div class="card">
+                              <!--AGREGANDO IMAGEN E ICONO-->
+                                <div class="card-image center">
+                                   <img class="activator" src="img/diseño grafico.jpg" alt="">
+                                </div>
+                              <!--AGREGANDO IMAGEN E ICONO-->
+
+                              <!--AGREGANDO TITULO DE LA TARJETA-->
+                                <div class="card-title">
+
+                                </div>
+                              <!--AGREGANDO TITULO DE LA TARJETA-->
+
+                              <!--AGREGANDO CONTENIDO-->
+                                <div class="card-content">
+                                  <span class="card-title activator" ><i class="material-icons right">more_vert</i>Diseño Grafico</span>
+                                  <p><a href="#">ver proyecto</a></p>
+                                </div>
+                              <!--AGREGANDO CONTENIDO-->
+
+                              <!--AGREGANDO info extra-->
+                                <div class="card-reveal">
+                                    <span class="card-title activator" ><i class="material-icons right">close</i><strong>Linea grafica</strong></span>
+                                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                    <p class="center"><a href="#">ver proyecto</a></p>
+                                </div>
+                                <!--AGREGANDO info extra-->
+                            </div>
+                        </div>
+
+                        <div class="col s12 m3">
+                            <div class="card">
+                              <!--AGREGANDO IMAGEN E ICONO-->
+                                <div class="card-image center">
+                                   <img class="activator" src="img/diseño grafico.jpg" alt="">
+                                </div>
+                              <!--AGREGANDO IMAGEN E ICONO-->
+
+                              <!--AGREGANDO TITULO DE LA TARJETA-->
+                                <div class="card-title">
+
+                                </div>
+                              <!--AGREGANDO TITULO DE LA TARJETA-->
+
+                              <!--AGREGANDO CONTENIDO-->
+                                <div class="card-content">
+                                  <span class="card-title activator" ><i class="material-icons right">more_vert</i>Diseño Grafico</span>
+                                  <p><a href="#">ver proyecto</a></p>
+                                </div>
+                              <!--AGREGANDO CONTENIDO-->
+
+                              <!--AGREGANDO info extra-->
+                                <div class="card-reveal">
+                                    <span class="card-title activator" ><i class="material-icons right">close</i><strong>Linea grafica</strong></span>
+                                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                    <p class="center"><a href="#">ver proyecto</a></p>
+                                </div>
+                                <!--AGREGANDO info extra-->
+                            </div>
+                        </div>
+                </div>
+
+            </div>
+      </div>
+
+      <div class="parallax-container">
+
+            <div class="section no-pad-bot">
+                <div class="container ">
+                  <div class="row">
+                    <div class="white-text col l8 s12">
+                      <h5 ><strong>Sobre Nosotros</strong></h5>
+                      <p >Somos jóvenes apasionados por lo que hacemos, amantes de la tecnología, autodidactas, creativos llenos de un espíritu emprendedor y por sobre todo listos para ayudarle en sus proyectos.</p>
+                      <h5><strong>Nuestra Mision</strong></h5>
+                      <p>La misión de CodeCreative es ayudar a jóvenes emprendedores, pequeñas y grandes empresas a aprovechar al máximo la tecnología, diseñando sitios web ,automatizando los procesos con sistemas web , aumentando el alcance de su empresa, negocios o producto a través del marketing digital, diseño gráfico y diseño multimedial también  apoyar la educación de los estudiantes de todos los niveles, en forma creativa, motivadora esto a través de la creación de aplicaciones de calidad y adecuadas a las necesidades educativas que presenten.</p>
+                    </div>
+
+                    <div class=" col l4 s12 ">
+                        <img src="img/laptop-01.png" alt="" height="450px" width="500px" class="left">
+                    </div>
+                </div>
+
+              </div>
+          </div>
+            <div class="parallax">
+                <img src="img/parallax.jpeg" alt="" >
+            </div>
+      </div>
+
+      <div class="container">
+            <h5 class=" teal-text center light "><strong>Lo que dicen nuestros clientes</strong></h5>
+            <br>
+            <br>
+            <div class="center">
+              <img class="circle responsive-img center waves-effect" src="img/cliente.jpg" alt="">
+              <br>
+              <br>
+              <h3><strong>Cliente 1</strong></h3>
+              <p>"Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur "</p>
+            </div>
+
+      </div>
+      <br>
+      <br>
+  <div class="" background-image="img/diseño grafico.jpg">
+      <div class="container">
+            <div class="row">
+                  <div class="col s12">
+                        <div class="row">
+                              <div class="input-field col s5 ">
+                                    <input type="text" name="" value="" placeholder="Primer Nombre" class="validate" id="firt_name">
+                                    <label for="firt_name">Primer Nombre</label>
+                              </div>
+
+                              <div class="input-field col s5">
+                                    <input type="email" name="" value="" placeholder="Ingresa tu correo " class="validate" id="email">
+                                    <label for="email" data-error="verifica la direccion" data-success="listo!">Correo</label>
+                              </div>
+
+                              <div class="input-field col s2">
+                                    <div class="btn">
+                                            <a href="#" class="waves-effect waves-light white-text">Registrarme</a>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+</div>
+
+
+  </body>
+  <footer class="page-footer teal">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m3">
+                <h5 class="white-text">Footer 1</h5>
+                <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut</p>
+            </div>
+
+
+        <div class="col s12 m3">
+          <h5 class="white-text">Footer 2</h5>
+          <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut</p>
+        </div>
+
+        <div class="col s12 m3">
+          <h5 class="white-text">Footer 3</h5>
+          <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut</p>
+        </div>
+
+        <div class="col s12 m3">
+          <h5 class="white-text">Footer 4</h5>
+          <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-copyright center teal darken-2">
+        <div class="container ">
+            <p >Orgullosamente Diseñado por <a class="white-text" href="https://www.codecreativenicaragua.com">Code Creative Nicaragua</a></p>
+        </div>
+    </div>
+
+  </footer>
+  <!-- Importando Librerias javascript
+  ;:<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>-->
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/init.js">
+
+  </script>
+</html>
